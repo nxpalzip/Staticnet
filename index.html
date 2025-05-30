@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATICNET</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+    @keyframes fast-blink {
+        0%, 20%, 40%, 60%, 80%, 100% { opacity: 1; }
+        10%, 30%, 50%, 70%, 90% { opacity: 0; }
+    }
+    .blink {
+        animation: fast-blink 1s infinite;
+    }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
+    <header class="p-4 shadow-lg">
+        <h1 class="text-4xl font-bold text-center neon-white blink">STATICNET</h1>
+        <p class="text-center text-gray-400">FREE CAR STATIC MODS IN STATICNET!</p>
+    </header>
+
+    <main class="p-6 max-w-4xl mx-auto">
+        <section class="grid gap-4 sm:grid-cols-2">
+            <div class="bg-gray-800 rounded-xl p-3 shadow hover:shadow-xl transition">
+                <img src="images/mod1.png" alt="Nissan 180sx" class="rounded mb-2">
+                <h2 class="text-lg font-semibold">Nissan 180sx</h2>
+                <p class="text-gray-400 text-sm">Nissan 180sx static style.</p>
+                <a href="mods/NISSAN180SX.zip" download class="inline-block mt-2 bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-sm">Download</a>
+            </div>
+            <div class="bg-gray-800 rounded-xl p-3 shadow hover:shadow-xl transition">
+                <img src="images/mod2.jpg" alt="Motor Balap" class="rounded mb-2">
+                <h2 class="text-lg font-semibold">Motor Balap</h2>
+                <p class="text-gray-400 text-sm">Motor balap dengan kecepatan tinggi dan desain keren.</p>
+                <a href="mods/motor-balap.zip" download class="inline-block mt-2 bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-sm">Download</a>
+            </div>
+        </section>
+
+        <section class="mt-8 text-center">
+            <h3 class="text-xl font-bold mb-2">Pengen share mod mu ke web ini?</h3>
+            <p class="text-gray-400 text-sm">Kirim modmu ke email <span class="text-blue-400">admin@gtasamod.com</span> untuk dipublikasikan.</p>
+        </section>
+    </main>
+
+    <footer class="p-4 mt-8 text-center text-gray-500">
+        &copy; 2025 GTA SA Mod Share. Semua hak dilindungi.
+    </footer>
+</body>
+</html>
